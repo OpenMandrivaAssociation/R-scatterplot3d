@@ -41,3 +41,28 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/po
+
+
+%changelog
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3_33-1
++ Revision: 775060
+- Update to latest version
+
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3_32-1
++ Revision: 774902
+- Update and rebuild with R2spec
+- Update and rebuild with R2spec
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - the mass rebuild of 2010.0 packages
+
+* Tue Sep 08 2009 Thierry Vignaud <tv@mandriva.org> 0.3.27-2mdv2010.0
++ Revision: 433150
+- BR texinfo
+- rebuild
+
+* Wed Jun 25 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 0.3.27-1mdv2009.0
++ Revision: 228959
+- add buildrequires on tetex-latex
+- import R-cran-scatterplot3d
+
