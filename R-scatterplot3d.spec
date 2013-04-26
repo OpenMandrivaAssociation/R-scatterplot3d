@@ -1,6 +1,8 @@
 %global packname  scatterplot3d
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
 Version:          0.3_33
 Release:          1
