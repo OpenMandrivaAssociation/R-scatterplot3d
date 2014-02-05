@@ -1,2 +1,4 @@
+removed_sources:
+  scatterplot3d_0.3-33.tar.gz: 2b55984ca8d79bd55c5dd802fdefb8f7aa6eb106
 sources:
-  "scatterplot3d_0.3-33.tar.gz": 2b55984ca8d79bd55c5dd802fdefb8f7aa6eb106
+  scatterplot3d_0.3-34.tar.gz: 66d41e2bd498f96bba6c5359ec8ae4a7ac93b655
