@@ -4,13 +4,13 @@
 %define debug_package %{nil}
 
 Name:             R-%{packname}
-Version:          0.3.34
+Version:          0.3.35
 Release:          1
 Summary:          3D Scatter Plot
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/scatterplot3d_0.3-34.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/scatterplot3d_0.3-35.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 %rename R-cran-scatterplot3d
 
@@ -67,5 +67,6 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 228959
 - add buildrequires on tetex-latex
 - import R-cran-scatterplot3d
+
 
 
