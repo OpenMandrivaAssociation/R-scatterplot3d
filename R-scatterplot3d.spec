@@ -9,7 +9,7 @@ Release:          2
 Summary:          3D Scatter Plot
 Group:            Sciences/Mathematics
 License:          GPL-2
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/scatterplot3d_0.3-35.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 %rename R-cran-scatterplot3d
